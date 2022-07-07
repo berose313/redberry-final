@@ -1,0 +1,56 @@
+.home {
+   position: absolute;
+   right: 0;
+   top: 0;
+   background: #fd5334;
+   height: 1080px;
+   width: 980px;
+}
+
+.home-heading {
+   font-family: "Nunito";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 80px;
+   line-height: 109px;
+   text-transform: uppercase;
+   color: #ffffff;
+
+   margin-left: 85px;
+   display: flex;
+   align-items: center;
+}
+
+.home-heading:not(:last-child) {
+   margin-top: 265px;
+}
+
+.home-heading span {
+   font-family: "Nunito";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: uppercase;
+   color: #212529;
+
+   margin-left: 26px;
+}
+
+.home-button {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: capitalize;
+   color: #ffffff;
+
+   padding: 13px 24px;
+   margin-left: 85px;
+   margin-top: 102px;
+   background: #212529;
+   border-radius: 8px;
+   outline: none;
+   cursor: pointer;
+}
