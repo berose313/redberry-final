@@ -1,8 +1,13 @@
 import React from "react";
 import "./Home.css";
+import Background from "../../UI/Background";
 
 const Home = () => {
-   return <div></div>;
+   return (
+      <div>
+         <Background />
+      </div>
+   );
 };
 
 export default Home;
