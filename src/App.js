@@ -22,7 +22,19 @@ function App() {
                   />
                }
             />
-            <Route path="/registration" element={<Registration />} />
+            <Route
+               path="/registration"
+               element={
+                  <Registration
+                     prev={() => {
+                        navigator("/home");
+                     }}
+                     next={() => {
+                        navigator("/experience");
+                     }}
+                  />
+               }
+            />
             <Route path="/experience" element={<Experience />} />
             <Route path="/last" element={<Last />} />
          </Routes>

@@ -4,7 +4,7 @@ import "./Registration.css";
 import Background from "../../UI/Background";
 import RegistrationImage from "../../Images/registration.png";
 
-const Registration = () => {
+const Registration = (props) => {
    return (
       <div>
          <Background image={RegistrationImage} />
@@ -50,8 +50,14 @@ const Registration = () => {
                   className="reg-form-input"
                />
                <div className="reg-form-btns">
-                  <button className="reg-btn-white">back</button>
-                  <button className="reg-btn-black" type="submit">
+                  <button className="reg-btn-white" onClick={props.prev}>
+                     back
+                  </button>
+                  <button
+                     className="reg-btn-black"
+                     type="submit"
+                     onClick={props.next}
+                  >
                      next
                   </button>
                </div>
