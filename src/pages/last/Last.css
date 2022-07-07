@@ -1,0 +1,12 @@
+.last {
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 1080px;
+   width: 980px;
+}
+
+.last-logo {
+   margin-top: 416px;
+   margin-left: 278px;
+}
