@@ -1,0 +1,176 @@
+.reg-headings {
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 1080px;
+   width: 980px;
+}
+
+.reg-header {
+   height: 84px;
+   width: 980px;
+   border-bottom: 1px solid rgba(185, 180, 196, 0.3);
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 150%;
+   text-transform: capitalize;
+   color: #212529;
+
+   display: flex;
+   align-items: center;
+   padding-left: 48px;
+}
+
+.reg-progress {
+   margin-left: 48px;
+   margin-top: 60px;
+
+   display: flex;
+}
+
+.reg-progress-block {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.reg-progress-block span {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+   margin-top: 4px;
+}
+
+.reg-progress-btn {
+   width: 40px;
+   height: 40px;
+   background: #ffffff;
+   border: 1px solid #e5e6e8;
+   border-radius: 8px;
+   padding: 7px 13px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   color: #212529;
+}
+
+.progress-second {
+   margin-left: 77px;
+}
+
+.progress-second .reg-progress-btn {
+   background: #f5f5f5;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   color: #95939a;
+}
+
+.reg-form-heading {
+   margin-top: 112px;
+   margin-bottom: 85px;
+   margin-left: 48px;
+}
+
+.reg-form-heading h1 {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 150%;
+   color: #000000;
+}
+
+.reg-form-heading h3 {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 150%;
+   text-transform: capitalize;
+   color: #95939a;
+}
+
+.reg-form {
+   display: flex;
+   flex-direction: column;
+   margin-left: 48px;
+}
+
+.reg-form-input {
+   width: 775px;
+   height: 46px;
+   background: #ffffff;
+   box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.125);
+   border-radius: 4px;
+   border: none;
+   padding: 8px 16px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   color: #212529;
+}
+
+.reg-form-input:not(:last-child) {
+   margin-bottom: 40px;
+}
+
+.reg-form-input::placeholder {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   color: #212529;
+}
+
+.reg-form-btns {
+   margin-top: 50px;
+}
+
+.reg-btn-white {
+   padding: 13px 24px;
+   border: 1px solid #212529;
+   border-radius: 8px;
+   margin-right: 584px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: capitalize;
+   color: #212529;
+   cursor: pointer;
+
+   background: none;
+}
+
+.reg-btn-black {
+   padding: 13px 24px;
+   background: #212529;
+   border-radius: 8px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: capitalize;
+   color: #ffffff;
+   cursor: pointer;
+}
