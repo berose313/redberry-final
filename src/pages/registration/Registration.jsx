@@ -3,6 +3,8 @@ import "./Registration.css";
 
 import Background from "../../UI/Background";
 import RegistrationImage from "../../Images/registration.png";
+import Checked from "../../Images/checked.png";
+import Invalid from "../../UI/Invalid";
 
 const Registration = (props) => {
    const [name, setName] = useState(localStorage.getItem("name"));
@@ -113,6 +115,7 @@ const Registration = (props) => {
                      }
                   }}
                />
+
                <input
                   type="date"
                   placeholder="Date of birth"

@@ -125,6 +125,18 @@
    color: #212529;
 }
 
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+   display: none;
+   -webkit-appearance: none;
+}
+
+/* .reg-form-input::after {
+   content: "✓";
+   color: #fff;
+   background-color: green;
+} */
+
 .reg-form-input:not(:last-child) {
    margin-bottom: 40px;
 }
