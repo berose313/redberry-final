@@ -163,3 +163,42 @@
    font-weight: 600;
    color: #000000;
 }
+
+.check-box {
+   display: flex;
+   margin-left: 55px;
+}
+
+.radio {
+   display: flex;
+   align-items: center;
+   column-gap: 10px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #212529;
+}
+
+.radio-btn {
+   width: 20px;
+   height: 20px;
+   background: none;
+   border: 1px solid #d9d9d9;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.radio-header {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   color: #212529;
+   margin-left: 53px;
+   margin-bottom: 20px;
+   margin-top: 88px;
+}

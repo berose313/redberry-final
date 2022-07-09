@@ -52,6 +52,10 @@ const PlayerOptions = (props) => {
    );
 };
 
+const RadioButton = () => {
+   return <div className="radio-btn"></div>;
+};
+
 const Experience = () => {
    const [options, setOptions] = useState();
    const [playerOptions, setPlayerOptions] = useState();
@@ -136,6 +140,22 @@ const Experience = () => {
                   {playerOptions}
                </div>
             </div>
+            {/* radio buttons */}
+            <Fragment>
+               <h1 className="radio-header">
+                  Have you participated in the Redberry Championship? *
+               </h1>
+               <div className="check-box">
+                  <div className="radio">
+                     <RadioButton />
+                     Yes
+                  </div>
+                  <div className="radio" style={{ marginLeft: "16px" }}>
+                     <RadioButton />
+                     No
+                  </div>
+               </div>
+            </Fragment>
          </div>
       </div>
    );
