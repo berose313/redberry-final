@@ -52,11 +52,11 @@ const PlayerOptions = (props) => {
    );
 };
 
-const RadioButton = () => {
+const RadioButton = (props) => {
    return <div className="radio-btn"></div>;
 };
 
-const Experience = () => {
+const Experience = (props) => {
    const [options, setOptions] = useState();
    const [playerOptions, setPlayerOptions] = useState();
    const [placeholder, setPlaceholder] = useState("level of knowledge *");
@@ -156,6 +156,18 @@ const Experience = () => {
                   </div>
                </div>
             </Fragment>
+            <div className="exp-form-btns">
+               <button className="reg-btn-white" onClick={props.prev}>
+                  back
+               </button>
+               <button
+                  className="exp-btn-black"
+                  type="submit"
+                  onClick={props.next}
+               >
+                  next
+               </button>
+            </div>
          </div>
       </div>
    );

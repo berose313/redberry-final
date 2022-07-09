@@ -109,7 +109,7 @@
 
 .level {
    margin-left: 38px;
-   margin-top: 95px;
+   margin-top: 10px;
    width: 392px;
    height: 46px;
    background: #ffffff;
@@ -201,4 +201,42 @@
    margin-left: 53px;
    margin-bottom: 20px;
    margin-top: 88px;
+}
+
+.exp-form-btns {
+   margin-top: 176px;
+   margin-left: 48px;
+}
+
+.exp-btn-white {
+   padding: 13px 24px;
+   border: 1px solid #212529;
+   border-radius: 8px;
+   margin-right: 625px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: capitalize;
+   color: #212529;
+   cursor: pointer;
+
+   background: none;
+}
+
+.exp-btn-black {
+   padding: 13px 24px;
+   background: #212529;
+   border-radius: 8px;
+
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   text-transform: capitalize;
+   color: #ffffff;
+   cursor: pointer;
 }

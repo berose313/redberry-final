@@ -35,7 +35,19 @@ function App() {
                   />
                }
             />
-            <Route path="/experience" element={<Experience />} />
+            <Route
+               path="/experience"
+               element={
+                  <Experience
+                     prev={() => {
+                        navigator("/registration");
+                     }}
+                     next={() => {
+                        navigator("/last");
+                     }}
+                  />
+               }
+            />
             <Route path="/last" element={<Last />} />
          </Routes>
       </div>
